@@ -1,4 +1,4 @@
-# AWS-Architecture_public_private_subnets
+# AWS - Architecture with public and private subnets
 
 ### Intro
 
