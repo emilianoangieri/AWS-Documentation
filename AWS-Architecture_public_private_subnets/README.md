@@ -63,10 +63,19 @@ In this guide I will not connect my VPC to other network (is not the purpose of 
 
 I used Ireland region.
 
+### Create a VPC
 1. Login on your AWS Account.
 2. Move to VPC section
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/1.Choose_VPC.PNG)
 3. Create new VPC
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/2.Create_VPC.PNG)
+4. Choose a name (in my example is "test-vpc") and a CIDR block (in my example is 10.0.0.0/20). Then click on "Yes, Create".
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/3.Create_VPC.PNG)
 
+### Create the Internet Gateway
+
+Now we are going to create the Internet Gateway and then we need to attach it to a VPC in order to create an internet access.
+
+1. Click on Internet Gateway section and then click on "Create Internet Gateway".
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/4.Create_IGW.PNG)
 
