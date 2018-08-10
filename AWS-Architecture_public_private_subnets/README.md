@@ -84,8 +84,14 @@ Now we are going to create the Internet Gateway and then we need to attach it to
 
 1. Click on Internet Gateway section and then click on "Create Internet Gateway".
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/4.Create_IGW.PNG)
+2. Choose a name of your Internet Gateway (in my example is test-igw)
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/5.Create_IGW.PNG)
+3. Click on "Create"
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/6.Create_IGW.PNG)
+4. As you can see the Internet Gateway is not attached to any VPC.
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/7.Create_IGW.PNG)
+To attach it on our VPC click on "Actions" -> "Attach to VPC"
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/8.Attch_IGW_to_VPC.PNG)
 
 
 
