@@ -44,3 +44,4 @@ In the next section I will show you how create in details an AWS architecture wi
 #### Architecture details
 
 In the following image are represented all the AWS resources
+
