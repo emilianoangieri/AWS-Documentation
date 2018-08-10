@@ -31,7 +31,7 @@ The security group acts as a virtual firewall that allow the control inbound and
 A subnet is a range of IP addresses into a VPC (more details available on AWS documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html#what-is-vpc-subnet).
 3. **Internet Gateway**.
 An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between instances into a VPC and the internet (more details available on AWS documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Internet_Gateway.html).
-4. **NAT**
+4. **NAT**.
 A network address translation (NAT) instance in a public subnet into a VPC enable instances in the private subnet to initiate outbound traffic to the Internet or other AWS services. On AWS The NAT could be configured with an EC2 instance (in this case is your responsibilities guarantee high availability and scalability) or via AWS NAT Services.
 In this guide I will show you how create a secure and scalable infrastructure vi AWS NAT Services (that is always my best suggestion :)).
 More details available on AWS documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html.
@@ -46,7 +46,27 @@ Following this schema, if you wuold like to create a LAMP application, a fronten
 
 In the next section I will show you how create in details an AWS architecture with public/private subnets.
 
-#### Architecture details
+#### Architecture details provisioning - practices part
 
-In the following image are represented all the AWS resources
+The prerequisite to achive the goal described below are:
+
+1. You have an AWS account
+2. You have root or privileged user to create AWS Resources
+
+The first item that I'm going to create is the VPC.
+
+In this example I used a CIDR address block like 10.0.0.0/20 but you can use the best address that fit your needs.
+It is important to use a proper CIDR block address especially if you wuold like to connect the AWS Cloud to your on-prem environment (or another Cloud or another VPC in AWS). This because to connect the VPC with others network the ips address must not be overlapped.
+In case you noticed that your VPC address are in overlapp with your local network you must destroy and recreate all the architecture (VPC, EC2, DB,..); up to now there is no way to migrate resources to another VPN and/or change VPC CIDR block.
+
+In this guide I will not connect my VPC to other network (is not the purpose of this document).
+
+I used Ireland region.
+
+1. Login on your AWS Account.
+2. Move to VPC section
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/1.Choose_VPC.PNG)
+3. Create new VPC
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/2.Create_VPC.PNG)
+
 
