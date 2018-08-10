@@ -2,11 +2,11 @@
 
 ### Intro
 
-In this guide I explain step by step how create an infrastructure on AWS Cloud using best practicies design.
+In this guide I explain step by step how create an infrastructure on AWS Cloud following design best practicies.
 
-The main idea is create a two tier infrastructure with a DMZ for public accessible application and protect sensible infrastructure zones with private subnets.
+The goal is create a two tier infrastructure with a DMZ for public accessible application and protect sensible infrastructure zones with private subnets.
 
-A common usage example could be a LAMP application on which Web Server could be exposed over the internet, instead the database servers should be protected on private subnets.
+A common usage example could be a LAMP application on which Web Server should be exposed over the internet, instead the database servers should be protected on private subnets.
 
 More details are available on AWS Documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html.
 
