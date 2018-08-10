@@ -14,3 +14,5 @@ More details are available on AWS Documentation here https://docs.aws.amazon.com
 ### Architecture goal
 
 The architecture goal is reported in the image below.
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/high_level_diagram.PNG)
