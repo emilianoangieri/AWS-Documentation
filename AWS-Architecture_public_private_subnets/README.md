@@ -97,6 +97,8 @@ To attach it on our VPC click on "Actions" -> "Attach to VPC"
 
 Now our VPC "test-vpc" has an Internet Gateway.
 
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/10.Attch_IGW_to_VPC.PNG)
+
 ## Create subnets
 
 In this section we are going to create our subnets.
