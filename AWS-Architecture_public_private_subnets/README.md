@@ -92,6 +92,22 @@ Now we are going to create the Internet Gateway and then we need to attach it to
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/7.Create_IGW.PNG)
 To attach it on our VPC click on "Actions" -> "Attach to VPC"
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/8.Attch_IGW_to_VPC.PNG)
+5. Select our VPC previously created and click on "Attach"
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/9.Attch_IGW_to_VPC.PNG)
 
+Now our VPC "test-vpc" has an Internet Gateway.
+
+## Create subnets
+
+In this section we are going to create our subnets.
+
+To let them public or private we need to change the routing table of each subnet.
+
+We will explain this in the section "Routing table".
+
+
+## Routing table to allow internet access
+
+Basically AWS doesn't allow anything by default but you must specify a routing rule allow e.g. the internet access to your default resource.
 
 
