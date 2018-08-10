@@ -72,10 +72,20 @@ I used Ireland region.
 4. Choose a name (in my example is "test-vpc") and a CIDR block (in my example is 10.0.0.0/20). Then click on "Yes, Create".
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/3.Create_VPC.PNG)
 
+In step 4 AWS ask about tenancy.
+The tenancy specify if how AWS resources are dedicated to us or shared across multiple clients.
+This is a very cool option when high level of security must be guarantee, but it is a costly solution :).
+In this guide I leave Default tenancy.
+More details about tenancy on AWS documentation here (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/dedicated-instance.html).
+
 ### Create the Internet Gateway
 
 Now we are going to create the Internet Gateway and then we need to attach it to a VPC in order to create an internet access.
 
 1. Click on Internet Gateway section and then click on "Create Internet Gateway".
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/4.Create_IGW.PNG)
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/5.Create_IGW.PNG)
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/6.Create_IGW.PNG)
+
+
 
