@@ -23,12 +23,18 @@ The first image represent an high level diagram of the AWS infrastructure that w
 
 The main AWS resources that will be created are:
 
-1. Virtual Private Cloud (better known as VPC).
+1. **Virtual Private Cloud** (better known as VPC).
 It is a virtual network on which all the AWS resources (like ELB, EC2, DB,..) are created (more details available on AWS documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html).
-2. Security Group.
+2. **Security Group**.
 The security group acts as a virtual firewall that allow the control inbound and outbound traffic (more details available on AWS documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html).
-2. Public and Private subnets.
+2. **Public and Private subnets**.
 A subnet is a range of IP addresses into a VPC (more details available on AWS documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html#what-is-vpc-subnet).
+3. **Internet Gateway**.
+An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between instances into a VPC and the internet (more details available on AWS documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Internet_Gateway.html).
+4. **NAT**
+A network address translation (NAT) instance in a public subnet into a VPC enable instances in the private subnet to initiate outbound traffic to the Internet or other AWS services. On AWS The NAT could be configured with an EC2 instance (in this case is your responsibilities guarantee high availability and scalability) or via AWS NAT Services.
+In this guide I will show you how create a secure and scalable infrastructure vi AWS NAT Services (that is always my best suggestion :)).
+More details available on AWS documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html.
 
 As shown above all the internet traffic will reach our servers created on Public Subnets, hosted on our VPC passing thorugh a firewall named Security Group.
 The communication between Public and Private subnet is allowed via another firewall (Security Group) placed above the Private Subnet.
