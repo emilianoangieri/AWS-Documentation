@@ -2,7 +2,7 @@
 
 ### Intro
 
-The aim of this guide is not replace the AWS documentation but is shown step-by-step of create and combine AWS resources in cloud console.
+The aim of this guide is not replace the AWS documentation but is show step-by-step of create and combine AWS resources in cloud console.
 
 In this guide I explain step by step how create an infrastructure on AWS Cloud following design best practicies.
 
