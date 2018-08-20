@@ -234,6 +234,16 @@ Now the subnet "public-ELB-1a" is public accessible (kindly note that you need t
 
 Repeat the step above for all public subnet.
 
+About private subnet the procedure is the same.
+The only one difference is select the Routing Table ID of private-rtb-1a and private-rtb-1b depending on where is located the subnet that you are updating (e.g. change the subnet private-Application-1b with the Route Table ID rtb-0d80b28289940df1b).
+
+## Conclusion
+
+Now we are successfully created the network part of our infrastructure with a DMZ.
+
+Let's start with the creation of the ELB and of your preferred Application and database!
+
+
 
 
 
