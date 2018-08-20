@@ -4,7 +4,7 @@
 
 The aim of this guide is not replace the AWS documentation but is show step-by-step how create and combine AWS resources in cloud console in order to create an Architecture with public and private subnets.
 
-In this guide I explain how create an infrastructure on AWS Cloud following design best practicies.
+In this guide I explain how create an infrastructure on AWS cloud following design best practicies.
 
 The goal is create a two tier infrastructure with a DMZ for public accessible application and protect sensible infrastructure zones with private subnets.
 
