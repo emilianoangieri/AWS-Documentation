@@ -6,9 +6,9 @@ In this guide I explain how create an infrastructure network on AWS cloud follow
 
 The goal is create a two tier netowrk infrastructure with a DMZ for public accessible application and protect sensible infrastructure zones with private subnets.
 
-A common usage example could be a LAMP application where a Load Balancer that distrubue the traffic across the Web Servers and/or Application Server should be exposed over the internet, instead the Web Servers and the database servers should be protected on private subnets.
+A common usage example could be a LAMP application where a Load Balancer that distrubue the traffic across the Web Servers and/or Application Server should be exposed over the internet, instead the Web servers/Application servers and the database servers should be protected on private subnets.
 
-More details are available on AWS Documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html.
+More details about possible infrastructure design are available on AWS Documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html.
 
 
 ### Architecture design
