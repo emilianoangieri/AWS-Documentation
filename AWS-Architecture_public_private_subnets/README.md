@@ -269,4 +269,5 @@ Let's start with the creation of the ELB and your preferred Application and data
 
 #### About author
 
-My Name is Emiliano Angieri and I'm a Cloud engineer expert with passion for all cloud best practicies.
+My Name is Emiliano Angieri and I'm a Cloud engineer expert with passion for all cloud applications and best practicies.
+Follow me on linkedin https://www.linkedin.com/in/emiliano-angieri-49908478/ or ask me a question to e.angieri@libero.it.
