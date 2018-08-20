@@ -169,6 +169,11 @@ Getting started creating the route table.
 
 Click on "Route Tables" and "Crete Route Table".
 
-IMMAGINE CREATE ROUTE TABLE
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/20.Create_route_table.PNG)
+
+Choose the name like "public-rtb" and select the proper VPC. Then click on "Create".
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/21.Create_route_table.PNG)
+
 
 
