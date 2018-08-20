@@ -37,7 +37,7 @@ More details available on AWS documentation here https://docs.aws.amazon.com/Ama
 As shown above all the internet traffic will reach our servers created on Public Subnets, hosted on our VPC passing thorugh a firewall named Security Group.
 The communication between Public and Private subnet is allowed via another firewall (Security Group) placed above the Private Subnet.
 
-Following this schema, if you wuold like to create a LAMP application, a frontend like apache,nginx could be placed on Public Subnets, instead an Application server (like Wordpress, Drupal, Magento,..) and a backend (like a MySQL database, RDS) could be placed on Private Subnets.
+Following this schema, if you wuold like to create a LAMP application, a frontend like apache,nginx could be placed on private subnet behind the ELB that need to be placed in public subnets, instead an Application server (like Wordpress, Drupal, Magento,..) and a backend (like a MySQL database, RDS) could be placed on private subnets as well.
 
 * The Public Subnet are internet facing and could be proteced via Security Group
 * The Private Subnet are not reachable via internet in any way
