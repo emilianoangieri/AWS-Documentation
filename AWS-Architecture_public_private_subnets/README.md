@@ -166,7 +166,7 @@ Now click on "NAT Gateway" and click on "Create NAT Gateway".
 Now choose the the subnet ID (in my example subnet-04a2dbc4ba131a63f) click on "Create New EIP" and click on "Create NAT Gateway".
 The NAT use the Elastic IP in order to keep the same static public ip avoiding any issue in case AWS need to change the underliyng resuorces.
 
-![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/31.NAT.PNG)
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/32.NAT.PNG)
 
 Wait until the NAT is available.
 
