@@ -216,8 +216,6 @@ Now we need to create the remaining private Route Table.
 
 Click again on "Create Route Table" and now create the private-rtb-1a (do not forget to select the proper VPC).
 
-![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/24.Create_route_table.PNG)
-
 Now assign the route from anyway to the NAT that we created previuosly in the availability zone 1a.
 
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/33.NAT.PNG)
