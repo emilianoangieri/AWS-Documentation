@@ -120,7 +120,21 @@ Once created the above subnets we need to create the proper Route Table in order
 
 Now start to create the subnets.
 
+Click on "Subnets" and "Create subnet"
 
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/11.Create_subnet.PNG)
+
+Now choose a name (like public-ELB-1a), select the VPC previously created, select the preferred availability zone and choose a CIDR block for this subnet.
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/12.Create_subnet.PNG)
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/13.Create_subnet.PNG)
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/14.Create_subnet.PNG)
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/15.Create_subnet.PNG)
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/16.Create_subnet.PNG)
 
 Before create the route table for private subnet we need to create the two NAT gateway.
 
