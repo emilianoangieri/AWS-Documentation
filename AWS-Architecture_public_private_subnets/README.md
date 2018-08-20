@@ -116,10 +116,17 @@ We will create the following subnets:
 * private-Application-1a/b: This are private subnets on which we could create our EC2 that will host our Application (like Wordpress, Drupal, Liferay, Magento,..).
 * private-DB-1a/b: This are private subnets on which we could create our database.
 
+Once created the above subnets we need to create the proper Route Table in order let them public or private.
 
-To let them public or private we need to change the routing table of each subnet.
+Now start to create the subnets.
 
-We will explain this in the section "Routing table".
+
+
+Before create the route table for private subnet we need to create the two NAT gateway.
+
+### Create NAT Gateway
+
+
 
 
 ## Routing table to allow internet access
