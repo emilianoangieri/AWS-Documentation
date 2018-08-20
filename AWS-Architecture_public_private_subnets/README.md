@@ -193,5 +193,47 @@ We successfully create a public Route Table.
 
 To let a subnet public we need to assign this route table to the subnets (we will do it in the next section).
 
+Now we need to create the remaining private Route Table.
+
+Click again on "Create Route Table" and now create the private-rtb-1a (do not forget to select the proper VPC).
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/24.Create_route_table.PNG)
+
+Now assign the route from anyway to the NAT that we created previuosly in the availability zone 1a.
+
+Repeat this step also for the second Route Table private-rtb-1b assigning in this case the route from anyway to the NAT that we previuosly created in the availability zone 1b.
+
+Now we need only to assign the proper Route Table to the proper subnets.
+
 ## Let subnet public or private
+
+Now for all the public subnets assign the Route Table previously created and named "public-rtb".
+
+First retrieve the Route Table ID of public-rtb Route Table.
+Click on "Route Tables" and filter by "public".
+Now keep trace of Route Table ID.
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/28.Assign_route_table.PNG)
+
+Click on 
+Click on "Subnets" and select a public subnet (in this example public-ELB-1a that we would like to make public).
+Then click on "Route Table".
+
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/26.Assign_route_table.PNG)
+
+Now click on "Edit Route Table Association" and select the Route Table ID previuosly found (..ff7d).
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/27.Assign_route_table.PNG)
+
+Click on "Save".
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/29.Assign_route_table.PNG)
+
+Now the subnet "public-ELB-1a" is public accessible (kindly note that you need to explicit allow any inbound traffic via Security Group).
+
+Repeat the step above for all public subnet.
+
+
+
 
