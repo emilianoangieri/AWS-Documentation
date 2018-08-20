@@ -146,6 +146,8 @@ The final sitution should be the following:
 
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/19.Create_subnet_final_status.PNG)
 
+The next step is create the two Routing Table that will made the subnet public or private.
+
 Before create the route table for private subnet we need to create the two NAT gateway.
 
 ### Create NAT Gateway
@@ -156,5 +158,17 @@ Before create the route table for private subnet we need to create the two NAT g
 ## Routing table to allow internet access
 
 Basically AWS doesn't allow anything by default but you must specify a routing rule allow e.g. the internet access to your default resource.
+
+In this section I'm going to create three Route Table:
+
+* public-rtb: the route table that will make a subnet public, routing the traffic from 0.0.0.0/0 (anyway) to the Internet Gateway
+* private-rtb-1a: the route table that will make a subnet private. This will route the traffic from 0.0.0.0/0 (anyway) to the internet via the NAT in the availability zone a.
+* private-rtb-1b: the route table that will make a subnet private. This will route the traffic from 0.0.0.0/0 (anyway) to the internet via the NAT in the availability zone b.
+
+Getting started creating the route table.
+
+Click on "Route Tables" and "Crete Route Table".
+
+IMMAGINE CREATE ROUTE TABLE
 
 
