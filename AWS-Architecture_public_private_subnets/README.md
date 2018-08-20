@@ -61,7 +61,7 @@ The first resource that I'm going to create is the VPC.
 
 In this example I used a CIDR address block like 10.0.0.0/20 but you can use the best address that fit your needs.
 It is important to use a proper CIDR block address especially if you wuold like to connect the AWS Cloud to your on-prem environment (or another Cloud or another VPC in AWS). This because to connect the VPC with others network the ips address must not be overlapped.
-In case you noticed that your VPC address are in overlapp with your local network you must destroy and recreate all the architecture (VPC, EC2, DB,..); up to now there is no way to migrate resources to another VPN and/or change VPC CIDR block.
+In case you noticed that your VPC address are in overlapp with your local network you must destroy and recreate all the architecture (VPC, EC2, DB,..); up to now there is no way to migrate resources to another VPC and/or change VPC CIDR block.
 
 In this guide I will not connect my VPC to other network (is not the purpose of this document).
 
