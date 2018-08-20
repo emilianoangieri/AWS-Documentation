@@ -57,7 +57,7 @@ The prerequisite to achive the goal described below are:
 1. You have an AWS account
 2. You have root or privileged user to create AWS Resources
 
-The first item that I'm going to create is the VPC.
+The first resource that I'm going to create is the VPC.
 
 In this example I used a CIDR address block like 10.0.0.0/20 but you can use the best address that fit your needs.
 It is important to use a proper CIDR block address especially if you wuold like to connect the AWS Cloud to your on-prem environment (or another Cloud or another VPC in AWS). This because to connect the VPC with others network the ips address must not be overlapped.
