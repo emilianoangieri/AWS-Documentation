@@ -175,5 +175,23 @@ Choose the name like "public-rtb" and select the proper VPC. Then click on "Crea
 
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/21.Create_route_table.PNG)
 
+Now we need to configure the proper route for this public Route Table.
 
+Click on "Routes" and "Edit".
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/22.Create_route_table.PNG)
+
+Click on "Add another rule".
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/23.Create_route_table.PNG)
+
+Now insert the route from anyway to the Internet Gateway previusly created:
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/24.Create_route_table.PNG)
+
+We successfully create a public Route Table.
+
+To let a subnet public we need to assign this route table to the subnets (we will do it in the next section).
+
+## Let subnet public or private
 
