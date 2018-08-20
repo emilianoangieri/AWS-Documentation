@@ -109,6 +109,14 @@ Now our VPC "test-vpc" has an Internet Gateway.
 
 In this section we are going to create our subnets.
 
+We will create the following subnets:
+
+* public-ELB-1a/b: This are public subnets on which we could create our public facing Load Balancer. a/b menas that we are going to create two subnet in two availability zones (named a and b).
+* public-NAT-1a/b: This are public subnets on which we will create the two AWS NAT instances. Basically the idea is to create two NAT instances in order to avoid single point of failure in case of down of one availability zone.
+* private-Application-1a/b: This are private subnets on which we could create our EC2 that will host our Application (like Wordpress, Drupal, Liferay, Magento,..).
+* private-DB-1a/b: This are private subnets on which we could create our database.
+
+
 To let them public or private we need to change the routing table of each subnet.
 
 We will explain this in the section "Routing table".
