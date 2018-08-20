@@ -237,7 +237,7 @@ Now keep track of Route Table ID.
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/28.Assign_route_table.PNG)
 
 Click on 
-Click on "Subnets" and select a public subnet (in this example public-ELB-1a that we would like to make public).
+Click on "Subnets" and select a public subnet (in this example public-ELB-1a) that we would like to make public.
 Then click on "Route Table".
 
 
