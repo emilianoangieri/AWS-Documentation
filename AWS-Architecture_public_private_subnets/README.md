@@ -2,7 +2,7 @@
 
 ### Intro
 
-The aim of this guide is not replace the AWS documentation but is show step-by-step of create and combine AWS resources in cloud console in order to create an Architecture with public and private subnets.
+The aim of this guide is not replace the AWS documentation but is show step-by-step how create and combine AWS resources in cloud console in order to create an Architecture with public and private subnets.
 
 In this guide I explain how create an infrastructure on AWS Cloud following design best practicies.
 
