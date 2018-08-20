@@ -262,9 +262,9 @@ The only one difference is select the Routing Table ID of private-rtb-1a and pri
 
 ## Conclusion
 
-Now we are successfully created the network part of our infrastructure with a DMZ.
+we successfully created the network part of our infrastructure with a DMZ.
 
-Let's start with the creation of the ELB and of your preferred Application and database!
+Let's start with the creation of the ELB and your preferred Application and database!
 
 
 
