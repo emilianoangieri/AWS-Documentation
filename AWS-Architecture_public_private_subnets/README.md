@@ -44,6 +44,12 @@ Following this schema, if you wuold like to create a LAMP application, a fronten
 * The Public Subnet are internet facing and could be proteced via Security Group
 * The Private Subnet are not reachable via internet in any way
 
+Kindly note that each component of this infrastructure must be hosted on multiple availability zone in order to guarantee high availability.
+This will impact the creation of AWS resources that we are going to made.
+Below it is reported the infrastructure image details:
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/0.infra.with.az.PNG).
+
 In the next section I will show you how create in details an AWS architecture with public/private subnets.
 
 #### Architecture details provisioning - practices part
