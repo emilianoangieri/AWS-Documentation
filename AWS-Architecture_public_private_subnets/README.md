@@ -2,9 +2,9 @@
 
 ### Intro
 
-In this guide I explain how create an infrastructure on AWS cloud following design best practicies.
+In this guide I explain how create an infrastructure network on AWS cloud following design best practicies.
 
-The goal is create a two tier infrastructure with a DMZ for public accessible application and protect sensible infrastructure zones with private subnets.
+The goal is create a two tier netowrk infrastructure with a DMZ for public accessible application and protect sensible infrastructure zones with private subnets.
 
 A common usage example could be a LAMP application where a Load Balancer that distrubue the traffic across the Web Servers and/or Application Server should be exposed over the internet, instead the Web Servers and the database servers should be protected on private subnets.
 
@@ -260,7 +260,7 @@ The only one difference is select the Routing Table ID of private-rtb-1a and pri
 
 ## Conclusion
 
-we successfully created the network part of our infrastructure with a DMZ.
+We successfully created the network part of our infrastructure with a DMZ.
 
 Let's start with the creation of the ELB and your preferred Application and database!
 
