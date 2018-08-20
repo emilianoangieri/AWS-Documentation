@@ -136,6 +136,16 @@ Now choose a name (like public-ELB-1a), select the VPC previously created, selec
 
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/16.Create_subnet.PNG)
 
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/16.Create_subnet_2.PNG)
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/17.Create_subnet.PNG)
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/18.Create_subnet.PNG)
+
+The final sitution should be the following:
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/19.Create_subnet_final_status.PNG)
+
 Before create the route table for private subnet we need to create the two NAT gateway.
 
 ### Create NAT Gateway
