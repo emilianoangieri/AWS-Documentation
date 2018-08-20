@@ -232,7 +232,7 @@ Now for all the public subnets assign the Route Table previously created and nam
 
 First retrieve the Route Table ID of public-rtb Route Table.
 Click on "Route Tables" and filter by "public".
-Now keep trace of Route Table ID.
+Now keep track of Route Table ID.
 
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/28.Assign_route_table.PNG)
 
