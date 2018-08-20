@@ -168,6 +168,10 @@ The NAT use the Elastic IP in order to keep the same static public ip avoiding a
 
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/31.NAT.PNG)
 
+Wait until the NAT is available.
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/34.NAT.PNG)
+
 Repeat this step also for the second subnet ID.
 
 Now we have the two NAT gateway that we need to explicit in the Route Table rules about private subnets.
@@ -217,6 +221,8 @@ Click again on "Create Route Table" and now create the private-rtb-1a (do not fo
 ![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/24.Create_route_table.PNG)
 
 Now assign the route from anyway to the NAT that we created previuosly in the availability zone 1a.
+
+![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/33.NAT.PNG)
 
 Repeat this step also for the second Route Table private-rtb-1b assigning in this case the route from anyway to the NAT that we previuosly created in the availability zone 1b.
 
