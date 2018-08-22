@@ -263,8 +263,8 @@ The only one difference is select the Routing Table ID of private-rtb-1a and pri
 Do you would like to test it quickly?
 
 It is simple with CloudFormation template.
-Check the folder above named "CloudFormation Template" and use the test template that I uploaded named test.template!
-([a relative link](test.template)
+Check the folder above named "CloudFormation_Template" and use the test template that I uploaded named test.template!
+([a relative link](CloudFormation_Template/test.template)
 
 You will have a infrastructure setup with few clicks.
 
