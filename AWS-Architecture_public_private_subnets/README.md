@@ -266,9 +266,9 @@ It is simple with CloudFormation template.
 Check the folder above named "CloudFormation_Template" and use the test template that I uploaded named test.template!
 ([test.template](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/CloudFromation_Template/test.template))
 
-You will have a infrastructure setup with few clicks.
+You can setup the infrastructure with few clicks.
 
-If you are not a CloudFormation template expert, you check the AWS Documentaiton here that explain how import an existing template!
+If you are not a CloudFormation template expert, you check the AWS Documentation here that explain how import an existing template!
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-using-console-create-stack-template.html
 
 ## Conclusion
