@@ -17,7 +17,7 @@ The architecture goal is reported in the image below.
 
 The first image represent an high level diagram of the AWS infrastructure that we are going to create.
 
-![alt text](https://github.com/emilianoangieri/AWS-Documentation/blob/master/AWS-Architecture_public_private_subnets/img/high_level_diagram.PNG)
+![alt text](img/high_level_diagram.PNG)
 
 The main AWS resources that will be created are:
 
