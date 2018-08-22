@@ -258,6 +258,19 @@ Repeat the step above for all public subnet.
 About private subnet the procedure is the same.
 The only one difference is select the Routing Table ID of private-rtb-1a and private-rtb-1b depending on where is located the subnet that you are updating (e.g. change the subnet private-Application-1b with the Route Table ID rtb-0d80b28289940df1b).
 
+## CloudFormation Template
+
+Do you would like to test it quickly?
+
+It is simple with CloudFormation template.
+Check the folder above named "CloudFormation Template" and use the test template that I uploaded named test.template!
+([a relative link](test.template)
+
+You will have a infrastructure setup with few clicks.
+
+If you are not a CloudFormation template expert, you check the AWS Documentaiton here that explain how import an existing template!
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-using-console-create-stack-template.html
+
 ## Conclusion
 
 We successfully created the network part of our infrastructure with a DMZ.
@@ -266,8 +279,9 @@ Let's start with the creation of the ELB and your preferred Application and data
 
 
 
-
 #### About author
 
 My Name is Emiliano Angieri and I'm a Cloud engineer expert with passion for all cloud applications and best practicies.
+
+Do you need support, help or clarifications?
 Follow me on linkedin https://www.linkedin.com/in/emiliano-angieri-49908478/ or ask me a question to e.angieri@libero.it.
