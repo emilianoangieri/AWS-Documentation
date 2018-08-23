@@ -268,7 +268,7 @@ Check the folder above named "CloudFormation_Template" and use the test template
 
 You can setup the infrastructure with few clicks.
 
-If you are not a CloudFormation template expert, you check the AWS Documentation here that explain how import an existing template!
+If you are not a CloudFormation template expert, you can check the AWS Documentation here that explain how import an existing template!
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-using-console-create-stack-template.html
 
 ## Conclusion
