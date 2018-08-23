@@ -10,6 +10,7 @@ A common usage example could be a LAMP application where a Load Balancer that di
 
 More details about possible infrastructure design are available on AWS Documentation here https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html.
 
+If you wuold like to test it quickly you can jump to CloudFormation template section.
 
 ### Architecture design
 
